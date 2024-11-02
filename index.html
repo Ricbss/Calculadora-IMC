@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<!-- Define o documento como HTML5 e especifica o idioma como inglês -->
+
+<head>
+    <meta charset="UTF-8"> 
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o suporte a caracteres especiais -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- Garante a compatibilidade com a versão mais recente do Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Configura a visualização para dispositivos móveis, garantindo que o layout seja responsivo -->
+    <title>Calculadora IMC</title> 
+    <!-- Define o título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="./style.css" /> 
+    <!-- Link para o arquivo CSS externo que define os estilos da página -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Importa a fonte "Roboto" com pesos de 400 (regular) e 700 (negrito) do Google Fonts -->
+</head>
+
+<body>
+    <div class="container">
+        <!-- Cria um contêiner para centralizar o conteúdo da calculadora -->
+        <h1>Calculadora IMC</h1> 
+        <!-- Cabeçalho da página com o título "Calculadora IMC" -->
+
+        <div class="input">
+            <label>Nome</label> 
+            <!-- Rótulo para o campo de entrada de nome -->
+            <input type="text" id="nome" /> 
+            <!-- Campo de entrada de texto para o nome, identificado pelo id "nome" -->
+        </div>
+
+        <div class="input">
+            <label>Altura</label> 
+            <!-- Rótulo para o campo de entrada de altura -->
+            <input type="number" id="altura" /> 
+            <!-- Campo de entrada numérico para a altura, identificado pelo id "altura" -->
+        </div>
+
+        <div class="input">
+            <label>Peso</label> 
+            <!-- Rótulo para o campo de entrada de peso -->
+            <input type="number" id="peso" /> 
+            <!-- Campo de entrada numérico para o peso, identificado pelo id "peso" -->
+        </div>
+
+        <button id="button">Calcular IMC</button> 
+        <!-- Botão para iniciar o cálculo do IMC, identificado pelo id "button" -->
+
+        <div id="resultado"></div> 
+        <!-- Div onde o resultado do cálculo do IMC será exibido -->
+
+        <footer class="footer">
+            <!-- Rodapé da página -->
+            <span>Desenvolvido por: <br><strong>Ricardo Barreto © 2024</strong></span> 
+            <!-- Texto de rodapé com os créditos do desenvolvedor e o ano -->
+        </footer>
+    </div>
+
+    <script src="./script.js"></script> 
+    <!-- Link para o arquivo JavaScript externo que contém a lógica da calculadora IMC -->
+</body>
+</html>

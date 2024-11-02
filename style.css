@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box; /* Inclui as bordas e o padding no tamanho total dos elementos */
+    margin: 0; /* Remove o espaçamento externo padrão de todos os elementos */
+    padding: 0; /* Remove o espaçamento interno padrão de todos os elementos */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão como Arial, ou outra sans-serif se Arial não estiver disponível */
+    /* background-color: #33077d; */ /* (Comentado) Cor de fundo roxa, atualmente não aplicada */
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/ee/2022/08/05/balanca-peso-obesidade-fita-metrica-gordura-emagrecimento-1659682940328_v2_900x506.jpg');
+    /* Define uma imagem de fundo com a URL especificada */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área visível */
+    background-position: center; /* Centraliza a imagem de fundo */
+    display: flex; /* Define o layout flexível para o elemento body */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura do body como 100% da altura da janela de visualização */
+}
+
+.container {
+    background-color: rgb(223, 220, 230); /* Define um fundo cinza claro para o contêiner */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave ao redor do contêiner */
+    width: 300px; /* Define a largura do contêiner */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    border: 4px solid #0f0f0f; /* Adiciona uma borda preta ao contêiner */
+}
+
+h1 {
+    margin-bottom: 20px; /* Adiciona um espaçamento inferior de 20px */
+    font-size: 24px; /* Define o tamanho da fonte como 24px */
+}
+
+label {
+    display: block; /* Faz o rótulo ocupar toda a largura disponível */
+    margin: 10px 0 5px; /* Adiciona espaçamento acima e abaixo */
+    font-weight: bold; /* Define o texto do rótulo como negrito */
+}
+
+input {
+    width: 100%; /* Define a largura do input para 100% do contêiner pai */
+    padding: 8px; /* Adiciona espaçamento interno de 8px */
+    margin-bottom: 10px; /* Adiciona espaçamento inferior de 10px */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza clara */
+    border-radius: 5px; /* Arredonda os cantos do input */
+}
+
+button {
+    width: 100%; /* Define a largura do botão para 100% do contêiner pai */
+    padding: 10px; /* Adiciona espaçamento interno de 10px */
+    background-color: #09db10; /* Define a cor de fundo verde do botão */
+    color: white; /* Define a cor do texto como branca */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando passa sobre o botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+}
+
+button:hover {
+    background-color: black; /* Muda a cor de fundo para preta ao passar o mouse */
+}
+
+#resultado {
+    margin-top: 20px; /* Adiciona um espaçamento superior de 20px */
+    font-size: 18px; /* Define o tamanho da fonte como 18px */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Altera a fonte padrão para "Roboto" */
+}
+
+.footer {
+    padding: .75rem 1.25rem; /* Adiciona espaçamento interno ao rodapé */
+    background-color: rgb(18, 18, 158); /* Define a cor de fundo azul escura */
+    border-top: 1px solid rgb(18, 18, 158); /* Adiciona uma borda superior azul escura */
+    text-align: center; /* Centraliza o texto do rodapé */
+    font-size: 14px; /* Define o tamanho da fonte como 14px */
+    color: whitesmoke; /* Define a cor do texto como branco suave */
+    border-radius: 15px; /* Arredonda os cantos do rodapé */
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte "Roboto" ao texto do rodapé */
+}
+
+.footer span strong {
+    color: whitesmoke; /* Define a cor do texto em negrito dentro de span como branco suave */
+}
